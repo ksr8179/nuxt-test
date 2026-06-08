@@ -25,4 +25,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .output/public # Nitro의 기본 출력 경로
+          publish_dir: .output/public # Nitro의 기본 출력 경로 
